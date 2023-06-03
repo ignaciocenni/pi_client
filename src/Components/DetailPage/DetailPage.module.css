@@ -1,0 +1,136 @@
+.prindiv {
+	background-image: url('../../assets/img/home.png');
+	background-size: cover;
+	width: auto;
+	height: 120vh;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	align-content: center;
+	justify-content: center;
+	display: block;
+}
+
+.bar {
+	background-color: rgb(38, 37, 37);
+	align-items: center;
+	justify-content: center;
+	height: fit-content;
+	width: 100%;
+	display: inline-flex;
+}
+
+.bothome {
+	height: 40px;
+}
+
+.bothome:hover {
+	height: 45px;
+	opacity: 90%;
+}
+
+.cardd {
+	margin: 40px;
+	min-height: 500px;
+	width: fit-content;
+	justify-content: center;
+	align-items: center;
+	display: inline-flex;
+	padding-right: 70px;
+	border-radius: 5%;
+	background-color: #1c1c1ca6;
+}
+
+.conpais {
+	margin-top: -50px;
+	padding-left: 50px;
+}
+
+.conact {
+	width: 300px;
+	height: fit-content;
+	border-radius: 5%;
+	margin: 40px;
+	background-color: #1c1c1cc0;
+	color: antiquewhite;
+	font-family: 'letters';
+	position: relative;
+	left: 50px;
+}
+
+.titulod {
+	color: antiquewhite;
+	text-align: center;
+	font-family: 'letters';
+}
+
+.banderad {
+	border-radius: 5px;
+	width: 12em;
+	height: 7.5em;
+	margin-bottom: -10px;
+}
+
+.nombred {
+	color: antiquewhite;
+	font-family: 'leters';
+	font-weight: bolder;
+	font-size: xx-large;
+	text-align: center;
+	margin-bottom: -15px;
+}
+
+.continented {
+	color: antiquewhite;
+	text-align: center;
+	font-size: large;
+	font-family: 'leters';
+	margin-bottom: -15px;
+}
+
+.codigo {
+	text-align: center;
+	color: antiquewhite;
+	font-family: 'leters';
+}
+
+.detalle {
+	color: antiquewhite;
+	font-family: 'leters';
+	margin: 4px;
+}
+
+.nombreact {
+	color: antiquewhite;
+	font-family: 'leters';
+	margin-bottom: 8px;
+}
+
+.botactd {
+	padding: 7px 5px;
+	font-size: 15px;
+	background-color: #333;
+	color: antiquewhite;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'letters';
+}
+
+.botactd:hover {
+	background-color: #555;
+}
+
+/* .boton {
+	padding: 7px 5px;
+	font-size: 15px;
+	background-color: #333;
+	color: antiquewhite;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'letters';
+}
+
+.boton:hover {
+	background-color: #555;
+} */

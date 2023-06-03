@@ -1,0 +1,51 @@
+.card {
+	border-radius: 5%;
+	background-color: #1c1c1ca6;
+	height: 250px;
+	width: 270px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	margin: 15px;
+}
+
+.bandera {
+	border-radius: 5%;
+	width: 8em;
+	height: 5.5em;
+}
+
+.titulo {
+	color: antiquewhite;
+	font-weight: bolder;
+	font-size: x-large;
+	font-family: 'letters';
+	text-align: center;
+	margin: 10px 0px -15px 0px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.continente {
+	color: antiquewhite;
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: 'letters';
+}
+
+.boton {
+	padding: 7px 5px;
+	font-size: 15px;
+	background-color: #333;
+	color: antiquewhite;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'letters';
+}
+
+.boton:hover {
+	background-color: #555;
+}

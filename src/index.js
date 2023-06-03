@@ -7,7 +7,9 @@ import store from './Redux/store/store';
 import { createRoot } from 'react-dom/client';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:3001';
+// axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'https://piapi-production-992a.up.railway.app/';
+
 const root = createRoot(document.getElementById('root'));
 root.render(
 	<Provider store={store}>
